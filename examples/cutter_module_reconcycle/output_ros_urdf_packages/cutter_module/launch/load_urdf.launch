@@ -1,0 +1,26 @@
+<launch>
+
+  <arg name="tf_prefix" default="cutter_module" />
+  <arg name="urdf_name" default="cutter_module" />
+  <arg name="show_joint_gui" default="true" />
+  
+  <arg name="package_name" default="$(arg urdf_name)" />
+  
+  <arg name="urdf_path" default="$(find cutter_module)/urdf/$(arg urdf_name).urdf" />
+  
+  <group ns="$(arg tf_prefix)">
+    <param name="tf_prefix" value="$(arg tf_prefix)" />
+    <param name="robot_description" textfile="$(arg urdf_path)" />
+    
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+    <group if="$(arg show_joint_gui)">
+
+      <node name="joint_state_publisher" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+
+    </group>
+ 
+  </group>
+
+
+</launch>
