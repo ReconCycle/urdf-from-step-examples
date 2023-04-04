@@ -41,8 +41,8 @@
       <geometry>
         <mesh filename="package://robot_arm/meshes/link_forearm_0.stl"/>
       </geometry>
-      <material name="color0">
-        <color rgba="0.35153260827064514 0.35153260827064514 0.35153260827064514 1"/>
+      <material name="color3">
+        <color rgba="0.8069522380828857 0.41788506507873535 0.016807375475764275 1"/>
       </material>
     </visual>
   </link>
@@ -52,8 +52,8 @@
       <geometry>
         <mesh filename="package://robot_arm/meshes/link_upperarm_0.stl"/>
       </geometry>
-      <material name="color0">
-        <color rgba="0.35153260827064514 0.35153260827064514 0.35153260827064514 1"/>
+      <material name="color2">
+        <color rgba="0.05780543014407158 0.3049873113632202 0.06480326503515244 1"/>
       </material>
     </visual>
   </link>
@@ -63,8 +63,8 @@
       <geometry>
         <mesh filename="package://robot_arm/meshes/link_gripper_0.stl"/>
       </geometry>
-      <material name="color0">
-        <color rgba="0.35153260827064514 0.35153260827064514 0.35153260827064514 1"/>
+      <material name="color4">
+        <color rgba="0.02955683507025242 0.04373503103852272 0.3049873113632202 1"/>
       </material>
     </visual>
   </link>
@@ -76,7 +76,7 @@
         <mesh filename="package://robot_arm/meshes/robot_base0.stl"/>
       </geometry>
       <material name="color0">
-        <color rgba="0.35153260827064514 0.35153260827064514 0.35153260827064514 1"/>
+        <color rgba="0.5520114302635193 0.03560131415724754 0.020288562402129173 1"/>
       </material>
     </visual>
   </link>
@@ -86,8 +86,8 @@
       <geometry>
         <mesh filename="package://robot_arm/meshes/Component30.stl"/>
       </geometry>
-      <material name="color0">
-        <color rgba="0.35153260827064514 0.35153260827064514 0.35153260827064514 1"/>
+      <material name="color1">
+        <color rgba="0.9646862745285034 0.9559733271598816 0.9130986332893372 1"/>
       </material>
     </visual>
   </link>
