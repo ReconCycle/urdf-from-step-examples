@@ -15,7 +15,7 @@ For quick visualization we can just choose following setting:
 
 ## TF
 
-<img src="./figures/rviz_settings.PNG" 
-     height="300"   >  <img src="./figures/rviz tf center.PNG" 
-     height="300"   >  <img src="./figures/rviz moved.PNG" 
+<img src="./figures/rviz_settings.png" 
+     height="300"   >  <img src="./figures/rviz tf center.png" 
+     height="300"   >  <img src="./figures/rviz moved.png" 
      height="300"   >  
